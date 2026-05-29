@@ -88,6 +88,7 @@ Shared across datasets: `--lr 0.005 --normalize --attn_lambda 1.0 --bag_repr_mod
   author    = {Cao, Nan and Zhao, Xu and Zhang, Teng},
   booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
   series    = {Proceedings of Machine Learning Research},
+  volume    = {306},
   year      = {2026},
   publisher = {PMLR}
 }
@@ -96,3 +97,12 @@ Shared across datasets: `--lr 0.005 --normalize --attn_lambda 1.0 --bag_repr_mod
 ## Acknowledgement
 
 This work builds on the Recursive Feature Machine / AGOP framework of Radhakrishnan et al. (*Science*, 2024). The MIPL benchmark data format follows DEMIPL and ELIMIPL.
+
+## TODO
+
+- [ ] Replace the OpenReview and PMLR badge links with the final paper URLs once available
+- [ ] Add an arXiv preprint link
+- [ ] Add ICML 2026 slides / poster
+- [ ] Update the BibTeX with the final volume and page numbers after the PMLR proceedings are published
+- [ ] Expand dataset download/preparation instructions (the .mat benchmark files)
+- [ ] Release pretrained checkpoints (optional)
