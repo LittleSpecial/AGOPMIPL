@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datasets and experiment outputs (download datasets separately; see README)
+data/
+results/
+rebuttal_*/
+checkpoints/
+*.tmp
+
+# Paper sources and LaTeX build artifacts (kept locally, not part of the code release)
+*.tex
+*.tex.bak*
+*.bib
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.sty
+*.bst
+*.pptx
+fig/
+example_paper.pdf
+overleaf.pdf
+icml_numpapers.pdf
+AGOPMIPL_architecture.pdf
+README_github.md
+teaser_for_repo.png
+
+# OS
+.DS_Store
